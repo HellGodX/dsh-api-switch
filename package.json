@@ -1,0 +1,33 @@
+{
+  "name": "dsh-api-switch",
+  "version": "0.1.0",
+  "description": "DSH 前台小挂件：一键在火山方舟 / DeepSeek 余额 / 智谱之间切换 AstrBot 的聊天模型",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "README.md"
+  ],
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "astrbot",
+    "llm-provider"
+  ],
+  "license": "MIT",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web"
+    }
+  }
+}

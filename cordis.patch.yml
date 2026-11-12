@@ -1,0 +1,3 @@
+- insert:
+    - id: api-switch
+      name: dsh-api-switch
