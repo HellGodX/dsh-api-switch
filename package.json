@@ -1,6 +1,6 @@
 {
   "name": "dsh-api-switch",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "DSH 前台小挂件：一键在火山方舟 / DeepSeek 余额 / 智谱之间切换 AstrBot 的聊天模型",
   "type": "module",
   "main": "lib/index.js",
